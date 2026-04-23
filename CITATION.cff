@@ -1,6 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this code or its results, please cite both the manuscript and this repository."
 title: "Machine learning vs logistic regression for malignancy risk in thyroid nodules — code and aggregate results"
+version: "1.0.0"
+date-released: "2026-04-23"
+doi: "10.5281/zenodo.19707930"
 abstract: >
   Code, aggregate metrics and figures supporting a temporal validation study
   comparing five machine-learning classifiers (logistic regression, random
