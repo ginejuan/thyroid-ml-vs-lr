@@ -13,7 +13,7 @@ authors:
     given-names: "Juan Jesús"
     email: "jjesus.fernandez@uca.es"
     affiliation: "Department of Obstetrics and Gynaecology, Hospital Universitario Puerto Real; INiBICA; University of Cádiz, Spain"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0002-7297-6876"
   - family-names: "Carral San Laureano"
     given-names: "Florentino"
     affiliation: "Department of Endocrinology and Nutrition, Hospital Universitario Puerto Real, Cádiz, Spain"
@@ -23,7 +23,7 @@ authors:
   - family-names: "González Macías"
     given-names: "Carmen"
     affiliation: "Department of Obstetrics and Gynaecology, Hospital Universitario Puerto Real; INiBICA; University of Cádiz, Spain"
-repository-code: "https://github.com/<your-username>/thyroid-ml-vs-lr"
+repository-code: "https://github.com/ginejuan/thyroid-ml-vs-lr"
 license: MIT
 license-url: "https://opensource.org/licenses/MIT"
 keywords:
