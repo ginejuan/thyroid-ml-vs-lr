@@ -1,0 +1,24 @@
+{
+  "model": "rf",
+  "n": 429,
+  "auc": 0.843068636304993,
+  "auc_lo": 0.7950014514256224,
+  "auc_hi": 0.8863247484195587,
+  "brier": 0.11913335743767764,
+  "cal_slope": 1.0583284506744761,
+  "cal_intercept": 0.449525780119197,
+  "cutoff_youden": 0.11511111111111112,
+  "sens_youden": 0.8152173913043478,
+  "spec_youden": 0.71513353115727,
+  "cutoff_paper": 0.0955,
+  "sens_paper": 0.8478260869565217,
+  "spec_paper": 0.655786350148368,
+  "best_params": {
+    "max_depth": null,
+    "max_features": 3,
+    "min_samples_leaf": 10,
+    "n_estimators": 500
+  },
+  "n_train": 432,
+  "n_test": 429
+}

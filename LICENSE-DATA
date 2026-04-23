@@ -1,0 +1,27 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The non-code artefacts in this repository — namely the contents of the
+`results/` and `figures/` folders (aggregate metrics, summary tables,
+SHAP rankings, calibration / decision / ROC plots, CONSORT diagram, etc.)
+— are released under the Creative Commons Attribution 4.0 International
+licence.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit (cite the manuscript and
+    this repository), provide a link to the licence, and indicate if changes
+    were made.
+
+Suggested citation:
+  Fernández Alba JJ, Carral San Laureano F, Jiménez Millán AI,
+  González Macías C. Machine learning vs logistic regression for malignancy
+  risk in thyroid nodules: a temporal validation study. [Journal of Clinical
+  Epidemiology, in submission, 2026]. Code & aggregate results:
+  https://github.com/<your-username>/thyroid-ml-vs-lr

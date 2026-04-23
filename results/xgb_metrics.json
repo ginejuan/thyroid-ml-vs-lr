@@ -1,0 +1,27 @@
+{
+  "model": "xgb",
+  "n": 429,
+  "auc": 0.8439072377757709,
+  "auc_lo": 0.8024843568571797,
+  "auc_hi": 0.8857945748935621,
+  "brier": 0.1264365412207022,
+  "cal_slope": 1.4201112402459313,
+  "cal_intercept": 0.9963640164193773,
+  "cutoff_youden": 0.17762803584337233,
+  "sens_youden": 0.6630434782608695,
+  "spec_youden": 0.8783382789317508,
+  "cutoff_paper": 0.0955,
+  "sens_paper": 0.9891304347826086,
+  "spec_paper": 0.3768545994065282,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.03,
+    "max_depth": 4,
+    "min_child_weight": 5,
+    "n_estimators": 300,
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  },
+  "n_train": 432,
+  "n_test": 429
+}

@@ -1,0 +1,50 @@
+# ----- Sensitive / patient-level data — NEVER commit -----
+# Raw SPSS file
+*.sav
+*.sas7bdat
+*.dta
+
+# Patient-level CSVs derived from the dataset
+data/raw/
+data/derived/
+datos_modelo*.csv
+datos_*.csv
+*_predictions.csv
+
+# Local environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ----- R -----
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# ----- OS / editors -----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

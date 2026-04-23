@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite both the manuscript and this repository."
+title: "Machine learning vs logistic regression for malignancy risk in thyroid nodules — code and aggregate results"
+abstract: >
+  Code, aggregate metrics and figures supporting a temporal validation study
+  comparing five machine-learning classifiers (logistic regression, random
+  forest, XGBoost, bagged CART and a multi-layer perceptron) for malignancy
+  risk prediction in thyroid nodules. Patient-level data are not included
+  in this repository; see data/README.md for the institutional access policy.
+type: software
+authors:
+  - family-names: "Fernández Alba"
+    given-names: "Juan Jesús"
+    email: "jjesus.fernandez@uca.es"
+    affiliation: "Department of Obstetrics and Gynaecology, Hospital Universitario Puerto Real; INiBICA; University of Cádiz, Spain"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Carral San Laureano"
+    given-names: "Florentino"
+    affiliation: "Department of Endocrinology and Nutrition, Hospital Universitario Puerto Real, Cádiz, Spain"
+  - family-names: "Jiménez Millán"
+    given-names: "Ana Isabel"
+    affiliation: "Department of Endocrinology and Nutrition, Hospital Universitario Puerto Real, Cádiz, Spain"
+  - family-names: "González Macías"
+    given-names: "Carmen"
+    affiliation: "Department of Obstetrics and Gynaecology, Hospital Universitario Puerto Real; INiBICA; University of Cádiz, Spain"
+repository-code: "https://github.com/<your-username>/thyroid-ml-vs-lr"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - thyroid nodule
+  - thyroid cancer
+  - machine learning
+  - logistic regression
+  - clinical prediction model
+  - external validation
+  - calibration
+  - decision curve analysis
+  - SHAP
+preferred-citation:
+  type: article
+  title: "Machine learning versus logistic regression for malignancy risk in thyroid nodules: a temporal validation study"
+  authors:
+    - family-names: "Fernández Alba"
+      given-names: "Juan Jesús"
+    - family-names: "Carral San Laureano"
+      given-names: "Florentino"
+    - family-names: "Jiménez Millán"
+      given-names: "Ana Isabel"
+    - family-names: "González Macías"
+      given-names: "Carmen"
+  journal: "Journal of Clinical Epidemiology"
+  year: 2026
+  notes: "In submission."

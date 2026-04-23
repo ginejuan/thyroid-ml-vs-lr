@@ -1,0 +1,25 @@
+{
+  "model": "mlp",
+  "n": 429,
+  "auc": 0.7681266933298929,
+  "auc_lo": 0.7072587408076377,
+  "auc_hi": 0.826998532447426,
+  "brier": 0.13065082026965114,
+  "cal_slope": 1.117410608955067,
+  "cal_intercept": 0.3832313913164204,
+  "cutoff_youden": 0.2642381480894244,
+  "sens_youden": 0.5,
+  "spec_youden": 0.9258160237388724,
+  "cutoff_paper": 0.0955,
+  "sens_paper": 0.8913043478260869,
+  "spec_paper": 0.314540059347181,
+  "best_params": {
+    "alpha": 0.01,
+    "hidden_layer_sizes": [
+      16
+    ],
+    "learning_rate_init": 0.01
+  },
+  "n_train": 432,
+  "n_test": 429
+}

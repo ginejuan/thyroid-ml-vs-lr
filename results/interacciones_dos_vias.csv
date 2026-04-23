@@ -1,0 +1,11 @@
+interaction,chi2,df,p,p_Bonferroni,significant_unadj
+age x male,1.87,1,0.171,1.0,False
+age x fhx_tc,0.01,1,0.923,1.0,False
+microcalc x hypoechoic,2.71,1,0.1,1.0,False
+microcalc x irregular,0.01,1,0.92,1.0,False
+solid x hypoechoic,0.87,1,0.352,1.0,False
+solid x tsh_low,0.17,1,0.684,1.0,False
+tsh_low x fhx_tc,0.45,1,0.504,1.0,False
+autoimmune x tsh_high,0.77,1,0.381,1.0,False
+susp_nodes x irregular,3.61,1,0.057,0.574,False
+taller_than_wide x microcalc,10.48,1,0.001,0.012,True

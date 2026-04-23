@@ -1,0 +1,2 @@
+test,chi2,df,p,interpretation
+"Linearity of age (RCS, 4 knots vs. age + age2)",4.75,3,0.191,linear specification adequate

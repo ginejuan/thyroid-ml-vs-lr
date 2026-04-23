@@ -1,0 +1,23 @@
+{
+  "model": "bagged_cart",
+  "n": 429,
+  "auc": 0.8207811895239324,
+  "auc_lo": 0.7737146819765192,
+  "auc_hi": 0.8682863501483679,
+  "brier": 0.1289608398557602,
+  "cal_slope": 1.3203032981995446,
+  "cal_intercept": 0.9165959995517857,
+  "cutoff_youden": 0.12387694512709158,
+  "sens_youden": 0.7391304347826086,
+  "spec_youden": 0.7448071216617211,
+  "cutoff_paper": 0.0955,
+  "sens_paper": 0.8804347826086957,
+  "spec_paper": 0.5311572700296736,
+  "best_params": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 10
+  },
+  "n_train": 432,
+  "n_test": 429
+}

@@ -1,0 +1,15 @@
+Variable,Train (n=432),Test (n=429),Test estadístico,p-valor
+"Edad, mediana [P25–P75] (años)",50 [41–59],52 [42–60],Mann-Whitney U,0.21
+"Sexo masculino, n (%)",71 (16.4%),85 (19.8%),Chi-cuadrado,0.20
+"Antecedente familiar de cáncer de tiroides, n (%)",17 (3.9%),14 (3.3%),Chi-cuadrado,0.60
+"TSH < 0.369 µU/mL, n (%)",81 (18.8%),125 (29.1%),Chi-cuadrado,<0.001
+"TSH > 4.701 µU/mL, n (%)",17 (3.9%),1 (0.2%),Chi-cuadrado,<0.001
+"Tiroiditis autoinmune, n (%)",109 (25.2%),78 (18.2%),Chi-cuadrado,0.01
+"Nódulo sólido, n (%)",315 (72.9%),327 (76.2%),Chi-cuadrado,0.27
+"Adenopatías sospechosas, n (%)",34 (7.9%),29 (6.8%),Chi-cuadrado,0.53
+"Nódulo hipoecoico, n (%)",177 (41.0%),148 (34.5%),Chi-cuadrado,0.05
+"Márgenes irregulares/microlobulados, n (%)",65 (15.0%),44 (10.3%),Chi-cuadrado,0.03
+"Macrocalcificaciones, n (%)",43 (10.0%),42 (9.8%),Chi-cuadrado,0.94
+"Microcalcificaciones, n (%)",82 (19.0%),45 (10.5%),Chi-cuadrado,<0.001
+"Más alto que ancho, n (%)",47 (10.9%),27 (6.3%),Chi-cuadrado,0.02
+"Cáncer de tiroides (outcome), n (%)",94 (21.8%),92 (21.4%),Chi-cuadrado,0.91
