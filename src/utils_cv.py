@@ -1,11 +1,10 @@
 """
 utils_cv.py
 -----------
-Esquema de validación cruzada y métricas comunes a todos los modelos.
-
-Garantiza que todos los modelos se evalúen sobre EXACTAMENTE los mismos
-folds (misma semilla, mismo número de splits y repeats) y se reporten
-con las mismas métricas para una comparación honesta.
+Shared cross-validation scheme and metrics for all models. Guarantees
+that every model is evaluated on EXACTLY the same folds (same seed, same
+number of splits and repeats) and reported with the same metrics for an
+honest comparison.
 """
 
 from __future__ import annotations

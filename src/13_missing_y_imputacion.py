@@ -1,25 +1,12 @@
 """
 13_missing_y_imputacion.py
 --------------------------
-Análisis exhaustivo de datos faltantes y análisis de sensibilidad por
-imputación múltiple (recomendaciones SciSpace, Acción 2).
-
-  A. PROPORCIÓN DE MISSING POR VARIABLE
-     y prueba de Little para MCAR (asociación entre patrón de missing
-     y el outcome / predictores no missing).
-
-  B. IMPUTACIÓN MÚLTIPLE (MICE) m=20
-     - Re-entrenar la regresión logística sobre cada conjunto imputado
-       restringido a la cohorte de entrenamiento (cirugías < 2019).
-     - Evaluar sobre el conjunto de prueba (cirugías >= 2019),
-       imputando el test de manera independiente con el mismo
-       imputador.
-     - Promediar probabilidades entre imputaciones (regla de Rubin
-       para predicción) y reportar AUC/Brier en test.
-
-  Salidas:
-     analisis/resultados_temporal/missingness_summary.csv
-     analisis/resultados_temporal/imputacion_multiple_resultado.csv
+Missing-data analysis and multiple-imputation sensitivity analysis:
+(A) missingness per variable and association of missingness patterns
+with the outcome; (B) MICE (m=20, IterativeImputer with BayesianRidge,
+sample_posterior=True): models re-trained on each imputed training set,
+evaluated on the imputed test set, predictions pooled across imputations
+(Rubin's rule for prediction).
 """
 
 from pathlib import Path

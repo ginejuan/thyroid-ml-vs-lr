@@ -1,12 +1,11 @@
 """
 01_preparar_dataset.py
 ----------------------
-Lee Calculadora 2024.sav, filtra CIRUGIA=1, selecciona las 13 variables del
-modelo publicado + outcome (TODOSCA), construye dummies de TSH y guarda el
-dataset analítico como CSV (para Python) y RDS-compatible vía feather (opcional).
-
-Ejecutar desde la carpeta del proyecto:
-    python analisis/01_preparar_dataset.py
+Builds the analysis dataset from the SPSS registry: applies the surgical
+filter (CIRUGIA=1), maps and renames the fourteen model terms of the
+published logistic-regression specification, recodes the outcome, and
+writes the full, complete-case and temporal-cohort CSVs.
+(Filename kept in Spanish for provenance with the original pipeline.)
 """
 
 from pathlib import Path

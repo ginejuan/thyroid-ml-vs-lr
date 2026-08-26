@@ -1,18 +1,15 @@
 """
 08_temporal_split.py
 --------------------
-Validación temporal honesta:
-    - Train: cirugías < 2019  (n=432)
-    - Test:  cirugías >= 2019 (n=429)
-
-Para cada modelo:
-    1. Tuneo de hiperparámetros con CV interna 5-fold SOLO en train
-       (no se mira test en ningún momento).
-    2. Ajuste final en train completo.
-    3. Predicción de probabilidades en test.
-    4. Métricas con utils_cv.evaluate().
-
-Guarda todo en analisis/resultados_temporal/.
+Strict temporal validation:
+    - Train: surgeries before 2019 (n=432)
+    - Test:  surgeries 2019 onwards (n=429)
+For each model: (1) hyperparameter tuning with internal 5-fold CV on the
+training cohort only; (2) final fit on the full training cohort; (3)
+probability predictions on the test cohort; (4) metrics via
+utils_cv.evaluate(). Non-linear models are calibrated with isotonic
+regression learned from out-of-fold predictions (CalibratedClassifierCV,
+cv=5). Outputs to analisis/resultados_temporal/.
 """
 
 from pathlib import Path

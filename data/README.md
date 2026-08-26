@@ -1,5 +1,22 @@
 # Data access policy
 
+
+## Update (August 2026): minimal anonymised dataset now public
+
+Following approval by the Biomedical Research Ethics Committee of Cádiz, a
+**minimal anonymised dataset** sufficient to replicate all findings of the
+temporal-validation study (complete-case n=861 and with-missing n=981, with
+full codebook) has been deposited on Zenodo under a CC BY 4.0 licence:
+
+> https://doi.org/10.5281/zenodo.22111356
+
+De-identification measures: no direct identifiers or dates; surgery year
+replaced by the analysis cohort label (train/test); nodule diameter replaced
+by the size categories used in the subgroup analyses; prepared following
+Hrynaszkiewicz et al. (BMJ 2010;340:c181). The restrictions described below
+continue to apply to the **full row-level registry**, which retains
+additional quasi-identifiers.
+
 ## Why the raw data are not in this repository
 
 The development cohort (n = 2 614 thyroid nodules with cytology, ultrasound

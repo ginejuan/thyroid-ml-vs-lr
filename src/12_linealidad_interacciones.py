@@ -1,23 +1,10 @@
 """
 12_linealidad_interacciones.py
 ------------------------------
-Pruebas de supuestos para la regresión logística (recomendado por
-revisores SciSpace, Acción 5–6 del informe).
-
-  A. LINEALIDAD DE LA EDAD
-     Compara mediante prueba de razón de verosimilitud (LRT):
-        modelo_lineal:    age + age2 (especificación del paper)
-        modelo_rcs:       age con splines cúbicos restringidos (4 nodos)
-     Un p > 0.05 favorece la especificación lineal/cuadrática.
-
-  B. INTERACCIONES DE DOS VÍAS
-     Para cada par de predictores plausibles a priori (ej. edad×sexo,
-     microcalcificaciones×hipoecoico, TSH bajo×nódulo sólido), añade
-     el término de interacción al modelo base completo y compara por
-     LRT. Reporta p-valor (no corregido y Bonferroni).
-
-Salida:
-    analisis/resultados_temporal/linealidad_interacciones.csv
+Model-specification checks for the logistic regression: (A) linearity of
+age via likelihood-ratio test comparing the paper specification
+(age + age^2) against restricted cubic splines; (B) pre-specified
+two-way interactions.
 """
 
 from pathlib import Path

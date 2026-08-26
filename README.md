@@ -8,8 +8,12 @@
 Code, aggregate metrics and figures supporting the manuscript
 
 > **Fernández Alba JJ, Carral San Laureano F, Jiménez Millán AI, González Macías C.**
-> *Machine learning versus logistic regression for malignancy risk in thyroid nodules: a temporal validation study.*
-> Journal of Clinical Epidemiology — in submission, 2026.
+> *Logistic Regression Withstands Comparison with Machine Learning for Thyroid Nodule Malignancy Risk Stratification Under Strict Temporal Validation.*
+> PLOS Digital Health — manuscript PDIG-D-26-00938, under revision, 2026.
+
+**Open data:** the minimal anonymised patient-level dataset (complete-case n=861 and with-missing n=981, with codebook) is published on Zenodo under CC BY 4.0: [doi:10.5281/zenodo.22111356](https://doi.org/10.5281/zenodo.22111356).
+
+*Note on file names:* script filenames are kept in their original Spanish for provenance with the registered analysis pipeline; each script carries an English docstring describing its function.
 
 This repository accompanies a temporal-validation study comparing five classifiers for the binary outcome **"malignancy at definitive histology"** in thyroid nodules with indeterminate or suspicious cytology. The five models compared are: penalised logistic regression (the baseline, identical to the originally published model), random forest, XGBoost, bagged CART, and a multi-layer perceptron.
 

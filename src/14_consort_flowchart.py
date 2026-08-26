@@ -1,10 +1,8 @@
 """
 14_consort_flowchart.py
 -----------------------
-Diagrama de flujo estilo CONSORT/TRIPOD-AI para el manuscrito
-(recomendación SciSpace, Acción Prioridad 1).
-
-Salida: analisis/figuras_temporal/figure1_consort.png
+CONSORT/TRIPOD+AI-style patient-flow diagram for the manuscript.
+Output: analisis/figuras_temporal/figure1_consort.png
 """
 
 from pathlib import Path

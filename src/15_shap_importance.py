@@ -1,23 +1,11 @@
 """
 15_shap_importance.py
 ---------------------
-Importancia de variables vía SHAP para los dos mejores modelos ML
-(Random Forest y XGBoost) sobre la cohorte temporal de test.
-
-Objetivo (orientado a JCE):
-   - Caracterizar qué variables explican las predicciones ML.
-   - Comparar el ranking SHAP (ML) con los coeficientes estandarizados
-     de la regresión logística publicada.
-   - Si los rankings son similares y los efectos son sustancialmente
-     monótonos, eso refuerza la conclusión del artículo: el ML no está
-     capturando interacciones ni no-linealidades ocultas que la RL haya
-     pasado por alto.
-
-Salidas:
-   - figuras_temporal/figura_shap_summary.png  (barras: |SHAP| medio
-     por variable, paneles RF y XGB)
-   - figuras_temporal/figura_shap_beeswarm.png (beeswarm XGBoost en test)
-   - resultados_temporal/shap_importance_ranking.csv  (rankings comparados)
+SHAP variable importance for the best-performing ML models (Random
+Forest and XGBoost) on the temporal test cohort, compared descriptively
+with the standardised logistic-regression coefficients. Broadly similar
+global rankings support the conclusion that the ML models are not
+exploiting hidden interactions or non-linearities missed by the LR.
 """
 
 from pathlib import Path

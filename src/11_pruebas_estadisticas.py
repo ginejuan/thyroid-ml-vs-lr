@@ -1,18 +1,11 @@
 """
 11_pruebas_estadisticas.py
 --------------------------
-Pruebas estadísticas formales recomendadas por los revisores
-(SciSpace meta-review):
-
-    1. Test de DeLong para comparación pareada de AUC entre cada
-       modelo de ML y la regresión logística (baseline) en el
-       conjunto de prueba (cohorte 2019+).
-    2. Bootstrap pareado (2000 réplicas, mismo paciente en ambos
-       modelos) para diferencias en Brier score.
-    3. Bootstrap pareado para diferencias en pendiente de calibración.
-
-Salida:
-    analisis/resultados_temporal/pruebas_estadisticas.csv
+Formal statistical tests: (1) paired DeLong test of each ML model vs the
+logistic-regression baseline on the temporal test cohort; (2) paired
+bootstrap (2,000 replicates) for Brier-score differences; (3) paired
+bootstrap for calibration-slope differences.
+Output: analisis/resultados_temporal/pruebas_estadisticas.csv
 """
 
 from pathlib import Path

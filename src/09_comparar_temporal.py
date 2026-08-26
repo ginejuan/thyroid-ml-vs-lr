@@ -1,9 +1,10 @@
 """
 09_comparar_temporal.py
 -----------------------
-Equivalente a 07_comparar_modelos.py pero leyendo
-analisis/resultados_temporal/ (modelos entrenados en pre-2019,
-evaluados en cohorte 2019+).
+Primary temporal comparison: reads analisis/resultados_temporal/ (models
+trained on the pre-2019 cohort, evaluated on the 2019+ cohort) and
+produces the comparison table, ROC curves, calibration curves and
+decision curves.
 """
 
 from pathlib import Path

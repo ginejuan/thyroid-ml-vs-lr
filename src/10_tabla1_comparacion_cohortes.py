@@ -1,13 +1,10 @@
 """
 10_tabla1_comparacion_cohortes.py
 ---------------------------------
-Tabla 1 estilo paper: características clínicas comparadas entre la
-cohorte de entrenamiento (cirugía < 2019) y la cohorte de prueba
-(cirugía >= 2019), con prueba estadística para cada variable.
-
-- Categóricas: chi-cuadrado (o Fisher si alguna celda < 5).
-- Edad (continua): Shapiro-Wilk para normalidad → t de Student
-  o Mann-Whitney U según resultado.
+Paper-style Table 1: clinical characteristics compared between the
+training (surgery before 2019) and test (2019 onwards) cohorts, with a
+statistical test per variable (chi-square/Fisher for categorical;
+Shapiro-Wilk then t-test or Mann-Whitney U for age).
 """
 
 from pathlib import Path

@@ -1,9 +1,9 @@
 """
 02_baseline_logistic.py
 -----------------------
-Baseline: regresión logística con los 13 predictores del modelo publicado.
-Usa el esquema de CV común (utils_cv.py) para que las métricas sean
-directamente comparables con los modelos de ML.
+Baseline: logistic regression with the published predictor specification.
+Uses the shared cross-validation scheme (utils_cv.py) so that metrics are
+directly comparable with the ML models.
 """
 
 from pathlib import Path
