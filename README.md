@@ -4,12 +4,13 @@
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19707930.svg)](https://doi.org/10.5281/zenodo.19707930)
+[![Article DOI](https://img.shields.io/badge/PLOS%20Digit%20Health-10.1371%2Fjournal.pdig.0001828-orange.svg)](https://doi.org/10.1371/journal.pdig.0001828)
 
-Code, aggregate metrics and figures supporting the manuscript
+Code, aggregate metrics and figures supporting the article
 
 > **Fernández Alba JJ, Carral San Laureano F, Jiménez Millán AI, González Macías C.**
 > *Logistic Regression Withstands Comparison with Machine Learning for Thyroid Nodule Malignancy Risk Stratification Under Strict Temporal Validation.*
-> PLOS Digital Health — manuscript PDIG-D-26-00938, under revision, 2026.
+> *PLOS Digital Health* 2026; 5(11): e0001828. https://doi.org/10.1371/journal.pdig.0001828
 
 **Open data:** the minimal anonymised patient-level dataset (complete-case n=861 and with-missing n=981, with codebook) is published on Zenodo under CC BY 4.0: [doi:10.5281/zenodo.22111356](https://doi.org/10.5281/zenodo.22111356).
 
@@ -141,7 +142,7 @@ All random seeds are fixed in `src/utils_cv.py` (`SEED = 42`) and propagate to s
 
 If you use this code, the figures, or the aggregate metrics, please cite **both**:
 
-1. The peer-reviewed manuscript (DOI to be added on acceptance).
+1. The article: Fernández Alba JJ, Carral San Laureano F, Jiménez Millán AI, González Macías C (2026). Logistic regression withstands comparison with machine learning for thyroid nodule malignancy risk stratification under strict temporal validation. *PLOS Digital Health* 5(11): e0001828. https://doi.org/10.1371/journal.pdig.0001828
 2. This repository — see [`CITATION.cff`](CITATION.cff). Once a Zenodo release is created, a permanent DOI will be added here.
 
 ## Licences
