@@ -143,7 +143,7 @@ All random seeds are fixed in `src/utils_cv.py` (`SEED = 42`) and propagate to s
 If you use this code, the figures, or the aggregate metrics, please cite **both**:
 
 1. The article: Fernández Alba JJ, Carral San Laureano F, Jiménez Millán AI, González Macías C (2026). Logistic regression withstands comparison with machine learning for thyroid nodule malignancy risk stratification under strict temporal validation. *PLOS Digital Health* 5(11): e0001828. https://doi.org/10.1371/journal.pdig.0001828
-2. This repository — see [`CITATION.cff`](CITATION.cff). Once a Zenodo release is created, a permanent DOI will be added here.
+2. This repository, archived on Zenodo: https://doi.org/10.5281/zenodo.19707930 (see also [`CITATION.cff`](CITATION.cff)).
 
 ## Licences
 
